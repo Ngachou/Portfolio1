@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-primary: #ff6b4a;
+  --color-secondary: #ffc978;
+
+  --bg-body: #080b1a;
+  --bg-section: #0b0e22;
+  --bg-card: #14172b;
+
+  --border-color: #23263a;
+
+  --text-white: #ffffff;
+  --text-muted: #c5c7d3;
+}
+
+body {
+  background-color: var(--bg-body);
+  color: var(--text-muted);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  max-width: 25%;
+}
+.logo img {
+  width: 20%;
+}
