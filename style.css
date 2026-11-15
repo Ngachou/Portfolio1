@@ -107,3 +107,41 @@ p {
   color: var(--text-white);
   margin-bottom: 10px;
 }
+
+/* section2 */
+.section2 {
+  /* display: grid;
+  justify-content: center;
+  align-items: center; */
+  padding: 30px;
+}
+.smallTitle {
+  padding: 10px;
+  text-align: center;
+}
+.divCard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.cards {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  padding: 20px;
+}
+.imgText {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.progress {
+  text-align: center;
+  background-color: var(--color-primary);
+  width: 100%;
+  border-radius: 20px;
+}
+.progress span {
+  color: var(--text-white);
+}
