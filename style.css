@@ -25,10 +25,85 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 30px;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  box-shadow: -1px 0px 28px 9px rgba(162, 162, 207, 0.56);
 }
-.logo {
-  max-width: 25%;
+
+.header img {
+  border-radius: 50px;
+  width: 10%;
 }
-.logo img {
-  width: 20%;
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: var(--color-primary);
+}
+
+/* Section 1 */
+.section1 {
+  background-color: var(--bg-section);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.part {
+  padding: 20px;
+}
+
+span {
+  color: var(--color-primary);
+}
+
+#btn {
+  background-color: transparent;
+  border: 1px solid var(--color-primary);
+  color: var(--text-white);
+  margin-bottom: 10px;
+}
+.info {
+  background-color: var(--border-color);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.info div {
+  margin: 10px;
+}
+h2 {
+  color: var(--color-primary);
+}
+p {
+  font-weight: 600;
+}
+.btnDiv button {
+  width: 150px;
+}
+#btnCont {
+  background-color: transparent;
+  border: 1px solid var(--color-primary);
+  color: var(--text-white);
+  margin-bottom: 10px;
 }
